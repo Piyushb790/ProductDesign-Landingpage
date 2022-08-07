@@ -19,12 +19,13 @@ nav {
   color: #fff;
   cursor: pointer;
 }
-span img{
+span img {
   position: relative;
   top: 13px;
   right: 15px;
   height: 20px;
-  filter: brightness(0) saturate(100%) invert(94%) sepia(94%) saturate(23%) hue-rotate(353deg) brightness(105%) contrast(107%);
+  filter: brightness(0) saturate(100%) invert(94%) sepia(94%) saturate(23%)
+    hue-rotate(353deg) brightness(105%) contrast(107%);
 }
 .logo {
   position: relative;
@@ -41,7 +42,7 @@ span img{
   margin-bottom: 60px;
 }
 .header-text img {
-  height: 550px;
+  height: 650px;
 }
 .text h3 {
   color: #fb3547;
@@ -251,7 +252,7 @@ a p {
   align-items: center;
   height: 550px;
 }
-.cr1 > div > img {
+.cr1 div img {
   height: 350px;
   width: 600px;
 }
@@ -273,12 +274,12 @@ a p {
   margin-top: -40px;
   color: #fff;
 }
-.t1  p {
+.t1 p {
   cursor: pointer;
   color: #fb3547;
   font-weight: 900;
 }
-.t2  p {
+.t2 p {
   cursor: pointer;
   color: #fb3547;
   font-weight: 900;
@@ -294,7 +295,7 @@ a p {
   align-items: center;
   height: 550px;
 }
-.cr2  div  img {
+.cr2 div img {
   height: 350px;
   width: 600px;
 }
