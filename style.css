@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee&family=Mochiy+Pop+One&family=Montserrat:wght@400;700&family=Orbitron:wght@400;500&family=Roboto&family=Sansita+Swashed:wght@300;400;504;600&family=Squada+One&display=swap");
+
 body {
   background-color: #111111;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 400;
   overflow-x: hidden;
 }
-
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
 nav {
   margin-top: 20px;
   list-style-type: none;
@@ -13,12 +16,14 @@ nav {
   justify-content: flex-end;
   margin-right: 170px;
 }
+
 .nav-item {
   padding: 15px;
   margin: 0 10px;
   color: #fff;
   cursor: pointer;
 }
+
 span img {
   position: relative;
   top: 13px;
@@ -27,6 +32,7 @@ span img {
   filter: brightness(0) saturate(100%) invert(94%) sepia(94%) saturate(23%)
     hue-rotate(353deg) brightness(105%) contrast(107%);
 }
+
 .logo {
   position: relative;
   bottom: 35px;
@@ -35,28 +41,36 @@ span img {
   filter: brightness(0) saturate(100%) invert(37%) sepia(53%) saturate(6017%)
     hue-rotate(337deg) brightness(100%) contrast(95%);
 }
+/* ------------------------------ */
+/* ---------- SECTION-1 ------------ */
+/* ------------------------------ */
 .header-text {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 60px;
 }
+
 .header-text img {
   height: 650px;
 }
+
 .text h3 {
   color: #fb3547;
   font-size: 25px;
 }
+
 .text h1 {
   font-size: 70px;
   font-weight: 900;
   color: #fff;
 }
+
 .text p {
   width: 400px;
   color: #d6d6d6;
 }
+
 .text button {
   cursor: pointer;
   padding: 15px 20px;
@@ -66,12 +80,16 @@ span img {
   border-style: none;
   font-weight: 500;
 }
-/* //page  2 */
+
+/* ------------------------------ */
+/* ---------- SECTION-2 ------------ */
+/* ------------------------------ */
 .services {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
+
 .height-img {
   height: 70px;
 }
@@ -85,50 +103,63 @@ span img {
   height: 300px;
   padding: 25px;
 }
+
 a h1 {
   color: #fff;
 }
+
 a p {
   color: #d3d1d1;
 }
+
 .ruler a img {
   filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%)
     hue-rotate(100deg) brightness(107%) contrast(101%);
 }
+
 .ruler {
   background-color: #c91b28;
 }
+
 .ruler p {
   font-size: 25px;
   color: #fff;
 }
+
 /* hover  */
 .notebook-img:hover {
   background-color: #c91b28;
   cursor: pointer;
   color: #fff;
 }
+
 .notebook-img a p {
   font-size: 15px;
 }
+
 .notebook-img a h1 {
   font-size: 30px;
 }
+
 .notebook-img a:hover {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%)
     hue-rotate(354deg) brightness(108%) contrast(101%);
 }
+
 .ruler:hover {
   background-color: #c91b28;
   cursor: pointer;
   color: #fff;
 }
+
 .ruler a p {
   font-size: 20px;
 }
+
 .ruler a h1 {
   font-size: 30px;
 }
+
 .ruler a:hover {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%)
     hue-rotate(354deg) brightness(108%) contrast(101%);
@@ -139,12 +170,15 @@ a p {
   cursor: pointer;
   color: #fff;
 }
+
 .calci a p {
   font-size: 15px;
 }
+
 .calci a h1 {
   font-size: 30px;
 }
+
 .calci a:hover {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%)
     hue-rotate(354deg) brightness(108%) contrast(101%);
@@ -157,17 +191,21 @@ a p {
   text-decoration: none;
   font-size: 25px;
 }
+
 .ruler a {
   color: #fff;
   text-decoration: none;
   font-size: 25px;
 }
+
 .calci a {
   color: #fb3547;
   text-decoration: none;
   font-size: 25px;
 }
-
+/* ------------------------------ */
+/* ---------- SECTION-3 ------------ */
+/* ------------------------------ */
 .blocks {
   padding: 0 12%;
   display: flex;
@@ -175,22 +213,27 @@ a p {
   justify-content: space-between;
   align-items: center;
 }
+
 .sublocks1 {
   width: 350px;
 }
+
 .block1 {
   text-align: center;
   padding: 30px;
   background-color: #1e1e1e;
 }
+
 .yrs {
   text-align: center;
 }
+
 .yrs h1 {
   color: #fb3547;
   font-size: 80px;
   line-height: 12px;
 }
+
 .yrs h3 {
   color: #fff;
   font-size: 40px;
@@ -202,26 +245,32 @@ a p {
   padding: 30px;
   margin-top: 40px;
 }
+
 .sublocks2 {
   width: 350px;
 }
+
 .block3 {
   text-align: center;
   padding: 30px;
   background-color: #1e1e1e;
 }
+
 .block4 {
   text-align: center;
   margin-top: 40px;
   background-color: #1e1e1e;
   padding: 30px;
 }
+
 .block-red h1 {
   color: #fb3547;
   font-size: 40px;
   font-weight: 900;
 }
-
+/* ------------------------------ */
+/* ---------- SECTION-4 ------------ */
+/* ------------------------------ */
 .nav-type {
   margin-top: 100px;
   display: flex;
@@ -229,14 +278,17 @@ a p {
   justify-content: space-around;
   height: 100px;
 }
+
 .upper h1 {
   font-size: 35px;
   color: #fff;
   font-weight: 900;
 }
+
 .upper p {
   color: #c0c0c0;
 }
+
 .viewall button {
   cursor: pointer;
   padding: 10px 25px;
@@ -252,21 +304,25 @@ a p {
   align-items: center;
   height: 550px;
 }
+
 .cr1 div img {
   height: 350px;
   width: 600px;
 }
+
 .img1 {
   border: 1px solid #000;
   padding: 65px 30px;
   margin: 25px;
   background-color: #1e1e1e;
 }
+
 .img2 {
   padding: 65px 30px;
   margin: 25px;
   background-color: #1e1e1e;
 }
+
 .fea-text {
   display: flex;
   justify-content: space-between;
@@ -274,43 +330,53 @@ a p {
   margin-top: -40px;
   color: #fff;
 }
+
 .t1 p {
   cursor: pointer;
   color: #fb3547;
   font-weight: 900;
 }
+
 .t2 p {
   cursor: pointer;
   color: #fb3547;
   font-weight: 900;
 }
+
 .t2 {
   position: relative;
   right: 535px;
 }
-
+/* ------------------------------ */
+/* ---------- SECTION-5 ------------ */
+/* ------------------------------ */
 .cr2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 550px;
 }
+
 .cr2 div img {
   height: 350px;
   width: 600px;
 }
+
 .img3 {
   border: 1px solid #000;
   padding: 65px 30px;
   margin: 25px;
   background-color: #1e1e1e;
 }
+
 .img4 {
   padding: 65px 30px;
   margin: 25px;
   background-color: #1e1e1e;
 }
-
+/* ------------------------------ */
+/* ---------- SECTION-6 ------------ */
+/* ------------------------------ */
 .foot {
   padding: 15px 75px;
   height: 350px;
@@ -322,14 +388,17 @@ a p {
   justify-content: space-between;
   color: #fff;
 }
+
 .lastcont h1 {
   font-size: 50px;
   font-weight: 900;
 }
+
 .lastcont p {
   color: #c0c0c0;
   width: 700px;
 }
+
 .contact button {
   cursor: pointer;
   padding: 10px 25px;
@@ -338,11 +407,15 @@ a p {
   background-color: #fb3547;
   border-style: none;
 }
+/* ------------------------------ */
+/* ---------- FOOTER ------------ */
+/* ------------------------------ */
 .lis {
   margin-bottom: -70px;
   display: flex;
   justify-content: center;
 }
+
 .lis li {
   cursor: pointer;
   color: #fff;
@@ -350,6 +423,7 @@ a p {
   list-style: none;
   padding: 20px;
 }
+
 .footer {
   margin-top: 100px;
   padding: 0 70px;
@@ -359,6 +433,7 @@ a p {
   justify-content: space-between;
   align-items: center;
 }
+
 .lastlogo {
   filter: brightness(0) saturate(100%) invert(37%) sepia(53%) saturate(6017%)
     hue-rotate(337deg) brightness(100%) contrast(95%);
@@ -370,4 +445,98 @@ a p {
     hue-rotate(100deg) brightness(107%) contrast(101%);
   height: 25px;
   margin-right: 600px;
+}
+
+.hamburger {
+  display: none;
+}
+/* ------------------------------ */
+/* ---------- media queries ------------ */
+/* ------------------------------ */
+@media screen and (max-width: 600px) {
+  nav {
+    visibility: hidden;
+  }
+
+  .header-text {
+    flex-direction: column;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blocks {
+    flex-direction: column;
+  }
+
+  .cr1 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .cr1 div img {
+    width: 400px;
+  }
+
+  .cr2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .cr2 div img {
+    width: 400px;
+  }
+
+  .foot {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .lastcont h1 {
+  }
+
+  .lastcont p {
+    width: auto;
+  }
+
+  .nav-type {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .connect {
+    margin-left: 50px;
+  }
+
+  .block3 {
+    margin-top: 35px;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: 25rem;
+    margin-top: -67px;
+  }
+
+  .hamburger img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%)
+      hue-rotate(356deg) brightness(110%) contrast(101%);
+    width: 33px;
+  }
+
+  .header-text img {
+    height: 480px;
+  }
 }
